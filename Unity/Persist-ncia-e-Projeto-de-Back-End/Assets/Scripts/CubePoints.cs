@@ -26,7 +26,7 @@ public class CubePoints : MonoBehaviour
     void OnMouseDown(){
         if(pointsToGive < 0)SetPoints(pointsToGive + 1);
         
-            Destroy(gameObject);
+        Destroy(gameObject);
         
         
         
